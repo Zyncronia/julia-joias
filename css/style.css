@@ -10,9 +10,78 @@
     display: flex;
     height: 80px;
     margin-bottom: 20px;
+    justify-content: center;
+   
+}
+
+.banner_roxo h1{
+    font-size: 5rem;
+    margin: 0;
+    margin-left: 150px;
+
+}
+
+.foto_logo{
+    position: absolute;
+    top: 2%;
+    left: 4%;
+    width: 180px;
+    height: 180px;
 }
 
 .banner_azul{
     background-color: #011fb3;
     height: 80px;
+}
+
+.titulo_h2{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 2.5rem;
+    margin: 50px;
+}
+
+.container_molduras{
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.moldura{
+    width: 12vw;
+    min-width: 12vw;
+    height: 12vw;
+    max-height:12vw;
+    background-color: wheat;
+    margin: 10px;
+    margin-right: 45px;
+}
+
+.imgs{
+    width: 12vw;
+    height: 12vw;
+    object-fit: cover;
+}
+.tiposJoias{
+    margin-bottom: 10rem;
+}
+/* .divisoria{
+    height: 10rem;
+} */
+
+.rodape{
+    margin: 0.5rem;
+}
+
+.footer_roxo{
+    background-color: blueviolet;
+    height: 1rem;
+    padding: 0.1rem;
+}
+
+.footer_azul{
+    background-color: #011fb3;
+    color: white;
+       
 }
