@@ -4,8 +4,8 @@
     height: 180px;
 
 }
-.banner_roxo{
-    background-color: blueviolet;
+.banner_cima{
+    background-color: lightcoral;
     color: white;
     display: flex;
     height: 80px;
@@ -14,7 +14,7 @@
    
 }
 
-.banner_roxo h1{
+.banner_cima h1{
     font-size: 5rem;
     margin: 0;
     margin-left: 150px;
@@ -29,8 +29,8 @@
     height: 180px;
 }
 
-.banner_azul{
-    background-color: #011fb3;
+.banner_baixo{
+    background-color: lightpink;
     height: 80px;
 }
 
@@ -66,22 +66,20 @@
 .tiposJoias{
     margin-bottom: 10rem;
 }
-/* .divisoria{
-    height: 10rem;
-} */
-
 .rodape{
     margin: 0.5rem;
 }
 
-.footer_roxo{
-    background-color: blueviolet;
+.footer_cima{
+    background-color: lightpink;
     height: 1rem;
     padding: 0.1rem;
 }
 
-.footer_azul{
-    background-color: #011fb3;
+.footer_baixo{
+    background-color: lightcoral;
     color: white;
+    display: flex;
+    justify-content: center;
        
 }
